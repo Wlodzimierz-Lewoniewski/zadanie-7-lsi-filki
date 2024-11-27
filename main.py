@@ -76,8 +76,8 @@ def main():
         similarity = cosine_similarity(reduced_query, doc_vec)
         similarities.append(round(similarity, 2))
 
-    print("\nPodobienstwa:")
-    print(similarities)
+    #print("\nPodobienstwa:")
+    #print(similarities)
     return similarities
 if __name__ == "__main__":
     main()
