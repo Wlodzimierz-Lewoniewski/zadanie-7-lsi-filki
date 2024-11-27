@@ -60,7 +60,7 @@ def main():
     #print("\nQuery wektor:")
     #print(query_vec)
 
-   # reduced_query = np.dot(np.linalg.inv(Sk), np.dot(Uk.T, query_vec))
+    reduced_query = np.dot(np.linalg.inv(Sk), np.dot(Uk.T, query_vec))
    #print("\nZredukowany Query wektor:")
     #print(reduced_query)
 
