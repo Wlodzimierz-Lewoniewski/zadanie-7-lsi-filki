@@ -31,7 +31,7 @@ def main():
                 term_doc_matrix[term_index[word], doc_id] = 1
 
     #print("\nMacierz term dokument:")
-    print(term_doc_matrix)
+    #print(term_doc_matrix)
 
     U, S, Vt = np.linalg.svd(term_doc_matrix, full_matrices=False)
     
